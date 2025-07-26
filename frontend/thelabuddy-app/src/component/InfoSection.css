@@ -1,0 +1,25 @@
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ddd;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+}
+
+.benefits, .testimonials {
+  background-color: #aaa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 45%;
+  margin: 1rem;
+  color: white;
+}
+
+.benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits li {
+  margin: 0.5rem 0;
+}

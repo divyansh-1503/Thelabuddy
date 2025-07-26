@@ -1,0 +1,21 @@
+.materials-section {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.materials-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.materials-grid img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
